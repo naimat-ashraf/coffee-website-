@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Handcrafted Coffee — Demo</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="logo">
+      <span class="mark"></span>
+      <div>
+        <div class="logo-title">BUNA</div>
+        <div class="logo-sub">Handcrafted Coffee</div>
+      </div>
+    </div>
+
+    <div class="search">
+      <input aria-label="search" placeholder="Tell us what you need" />
+      <button class="btn search-btn">Search</button>
+    </div>
+
+    <nav class="nav">
+      <a href="#">Home</a>
+      <a href="#curations">Gift</a>
+      <a href="#products">Order</a>
+      <a href="#">Pay</a>
+      <a href="#">Store</a>
+      <a href="#" class="profile-icon">
+        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=80" />
+      </a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <h1>HANDCRAFTED</h1>
+        <p>Choose from our wide range of handcrafted coffees</p>
+        <a class="btn" href="#products">Order Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+<section id="menu" class="menu-section">
+    <h2>Our Menu</h2>
+    <div class="menu-grid">
+        <div class="menu-item">
+            <img src="https://i.pinimg.com/1200x/a8/02/a3/a802a3347368a5155c3ba3388bc77ce1.jpg" alt="Espresso">
+            <h3>Espresso</h3>
+            <p>$3.00</p>
+        </div>
+        <div class="menu-item">
+            <img src="https://i.pinimg.com/1200x/33/44/2e/33442e58a74503c7cef4fc437a4ebc8e.jpg" alt="Cappuccino">
+            <h3>Cappuccino</h3>
+            <p>$4.50</p>
+        </div>
+        <div class="menu-item">
+            <img src="https://i.pinimg.com/736x/50/f1/7c/50f17c380525acf16c5ad8df185b1554.jpg" alt="Latte">
+            <h3>Latte</h3>
+            <p>$4.00</p>
+        </div>
+        <div class="menu-item">
+            <img src="https://i.pinimg.com/736x/f1/4e/70/f14e7007806beed9f34ff9cf733e5e52.jpg" alt="Mocha">
+            <h3>Mocha</h3>
+            <p>$4.75</p>
+        </div>
+    </div>
+</section>
+
+<!-- Gallery Section -->
+<section id="gallery" class="gallery-section">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+        <img src="https://i.pinimg.com/736x/50/7b/b4/507bb4352c6cb87ae99ecc83698c80c2.jpg" alt="Coffee Shop Interior">
+        <img src="https://i.pinimg.com/1200x/b7/f0/58/b7f058366c85cb628ac8dd2cf4ce86cd.jpg" alt="Latte Art">
+        <img src="https://i.pinimg.com/1200x/d2/aa/34/d2aa347f6536e8bccf7769cebbdd0770.jpg" alt="Coffee Beans">
+        <img src="https://i.pinimg.com/736x/48/28/3b/48283b62816a4865eabb3db9ea452e12.jpg" alt="Desserts">
+        <img src="https://i.pinimg.com/736x/72/fc/77/72fc77b5def483884c517367f982fd15.jpg" alt="Café Ambience">
+    </div>
+</section>
+
+
+  <!-- PRODUCTS -->
+  <section id="products" class="section">
+    <h3>Barista Recommends</h3>
+
+    <div class="products">
+
+      <article class="card">
+        <img src="https://i.pinimg.com/736x/e5/6f/54/e56f545d1e8c35ebfd330d1c1693ea1c.jpg">
+        <div class="meta-info">
+          <div>
+            <div class="title">Java Chip Frappuccino</div>
+            <div class="muted">Tall · 354 kcal · Bestseller</div>
+          </div>
+          <div class="right">
+            <div class="price">$15.20</div>
+            <button class="add" data-name="Java Chip Frappuccino">Add Item</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="https://i.pinimg.com/1200x/cb/48/db/cb48db04009801523739569e0f33cfc3.jpg">
+        <div class="meta-info">
+          <div>
+            <div class="title">Caffe Americano</div>
+            <div class="muted">Short · 37 ml · Local</div>
+          </div>
+          <div class="right">
+            <div class="price">$10.30</div>
+            <button class="add" data-name="Caffe Americano">Add Item</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="https://i.pinimg.com/736x/78/ae/85/78ae850573c527fbaabc7f6e2c8877c9.jpg">
+        <div class="meta-info">
+          <div>
+            <div class="title">Cold Coffee</div>
+            <div class="muted">Tall · 354 kcal · Bestseller</div>
+          </div>
+          <div class="right">
+            <div class="price">$11.20</div>
+            <button class="add" data-name="Cold Coffee">Add Item</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="https://i.pinimg.com/1200x/21/09/d9/2109d9e3f600a3f8d408defd5a140f40.jpg">
+        <div class="meta-info">
+          <div>
+            <div class="title">Double Chocolate Chip</div>
+            <div class="muted">Tall · 354 kcal · Bestseller</div>
+          </div>
+          <div class="right">
+            <div class="price">$11.20</div>
+            <button class="add" data-name="Double Chocolate Chip">Add Item</button>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- CULTURE -->
+  <section class="culture">
+    <div class="cardish">
+      <div class="tag">Coffee Culture</div>
+      <h2>How Coffee Stirred Revels & Rebels</h2>
+      <p>Inspired by the jovial character of coffee, flavors evolved worldwide.</p>
+      <a class="btn">Learn More</a>
+    </div>
+  </section><!-- Testimonial Section -->
+<section id="testimonials" class="testimonial-section">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial-grid">
+        <div class="testimonial-item">
+            <p>"The best coffee I've ever had! Cozy atmosphere and friendly staff."</p>
+            <h4>- Sarah J.</h4>
+        </div>
+        <div class="testimonial-item">
+            <p>"Perfect place to work and relax. Their cappuccino is amazing!"</p>
+            <h4>- Michael R.</h4>
+        </div>
+        <div class="testimonial-item">
+            <p>"I love the seasonal drinks. Every visit is a treat!"</p>
+            <h4>- Emma W.</h4>
+        </div>
+    </div>
+</section>
+
+<!-- Blog Section -->
+<section id="blog" class="blog-section">
+    <h2>Coffee Blog</h2>
+    <div class="blog-grid">
+        <div class="blog-item">
+            <img src="https://i.pinimg.com/1200x/d9/4d/0f/d94d0fd0377ca83d1b01ab7e333b265d.jpg" alt="Coffee Brewing Tips">
+            <h3>5 Tips to Brew the Perfect Coffee</h3>
+            <p>Learn how to make barista-quality coffee at home with these simple techniques.</p>
+        </div>
+        <div class="blog-item">
+            <img src="https://i.pinimg.com/736x/81/e2/fd/81e2fd921e554e3bdfa890aeab44e78d.jpg" alt="Coffee Types">
+            <h3>Different Coffee Beans Explained</h3>
+            <p>Explore the world of coffee beans and find your favorite flavor profile.</p>
+        </div>
+        <div class="blog-item">
+            <img src="https://i.pinimg.com/736x/eb/a1/21/eba1215e563bfffb64e1a620fd07f9f8.jpg" alt="Seasonal Drinks">
+            <h3>Top Seasonal Coffee Drinks</h3>
+            <p>Discover the best drinks to try this season and enjoy a cozy coffee experience.</p>
+        </div>
+    </div>
+</section>
+
+
+
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div>
+        <div class="logo">
+          <span class="mark"></span>
+          <strong>BUNA</strong>
+        </div>
+        <p class="muted">Ethical & handcrafted coffee.</p>
+      </div>
+      <div>
+        <h4>About Us</h4>
+        <p class="muted">Our Heritage<br>Company<br>Coffeehouse</p>
+      </div>
+      <div>
+        <h4>Responsibility</h4>
+        <p class="muted">Community<br>Environment<br>Diversity</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <p class="muted">Careers<br>Gifting<br>FAQs<br>Delivery</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
